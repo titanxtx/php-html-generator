@@ -23,6 +23,6 @@ $tmp=['type'=>'div','settings'=>['className'=>'container'],'ext'=>['type'=>'tabl
                 ['r'=>1,'c'=>8,'ext'=>['type'=>'div','settings'=>['className'=>'nav_sections'],'ext'=>['type'=>'span','ext'=>['type'=>'textnode','text'=>'test11']]]],
             ]]]
         ]]];
-$html->appendChild(htmlgen::generatorhtml($html,$outline));
+$html->appendChild(htmlgen::generatorhtml($html,$tmp));
 print $html->saveHTML();
 ```
